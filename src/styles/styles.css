@@ -1,0 +1,39 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-repeat: repeat;
+  background-size: auto;
+  background-image: url(images/stars.gif);
+  color: black;
+  font-family: Verdana;
+}
+
+/* Hide the embedded youtube video */
+iframe {
+  width: 0%;
+  height: 0%;
+  border: none;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center; /* Vertical */
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
